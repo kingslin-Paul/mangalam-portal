@@ -43,7 +43,7 @@ function Versatile() {
 
   return (
     <div>
-     <section className='py-12 px-4 md:py-20 md:px-12 lg:py-20 lg:px-[30px] max-w-[1240px] mx-auto'>
+     <section className='py-12 px-4 md:py-20 md:px-12 lg:py-20 lg:px-[30px] max-w-[1240px] mx-auto overflow-hidden md:overflow-auto'>
         <div className="flex justify-between md:items-center flex-col md:flex-row gap-5">
         <section className="max-w-[640px]">
         <h2 className='font-urbanist font-bold text-[48px] leading-[1.2] tracking-[0px] mb-5 text-black'>Built to Last. Engineered to Perform.</h2>
