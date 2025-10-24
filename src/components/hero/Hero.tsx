@@ -128,8 +128,8 @@ const logos = [
                 </div>
                 </div>
                 <div id='section-pricing' className='flex flex-col gap-5 mt-5'>
-                <div className='flex flex-col border border-primary-border rounded-[10px] py-4 px-5'>
-                    <span className='#6A7077 font-sans font-medium text-[14px] leading-[20px] tracking-[-0.006em] bg-white'>Price Range</span>
+                <div className='flex flex-col border border-primary-border rounded-[10px] py-4 px-5 bg-white'>
+                    <span className='#6A7077 font-sans font-medium text-[14px] leading-[20px] tracking-[-0.006em]'>Price Range</span>
                     <span className='mt-2 font-sans font-semibold text-[20px] leading-[1.4] tracking-[-0.006em] text-black'>₹4,80,000 - 7,90,000</span>
                     <div className='flex flex-col sm:flex-row sm:flex-wrap gap-2 mt-4'>
                         <span className='bg-[#FEF3C7] rounded-md py-[6px] px-3 text-[#92400E] font-sans font-medium text-[14px] leading-[20px] tracking-[-0.006em]'>Shipping: 6-12 days</span>
