@@ -50,7 +50,7 @@ function Performance() {
 ];
 
   return (
-    <section className='py-12 px-4 md:py-20 md:px-12 lg:py-20 lg:px-[30px] max-w-[1240px] mx-auto'>
+    <section className='py-12 px-4 md:py-20 md:px-12 lg:py-20 lg:px-[30px] max-w-[1240px] mx-auto overflow-hidden md:overflow-auto'>
           <h2 className='font-urbanist font-bold text-[48px] leading-[1.2] tracking-[0px] mb-5 text-black'>Built to Last. Engineered to Perform.</h2>
       <h3 className='font-inter font-normal text-lg leading-[1.6] tracking-[-0.006em] text-[#6A7077] md:max-w-[782px]'>From bulk bags to technical threads, Meera delivers precision solutions for every stage of your packaging process.</h3>
 
