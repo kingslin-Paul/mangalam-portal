@@ -1,4 +1,4 @@
-import { ChevronRight } from 'lucide-react'
+import { ChevronRight, MoveLeft, MoveRight } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react';
 
 function Hero() {
@@ -53,11 +53,15 @@ const logos = [
 
         <section className='flex flex-col lg:flex-row gap-7 lg:gap-14 xl:gap-[87px] mt-7 sm:mt-12'>
             <div className='flex justify-center lg:justify-start flex-none hidden lg:block relative'>
-            <img ref={imgRef} src="/assets/fish-man.jpg" alt="Hero"
-          onMouseEnter={() => setHovered(true)}
-          onMouseLeave={() => setHovered(false)}
-          onMouseMove={handleMouseMove}
-             className="w-full cursor-zoom-in lg:max-w-[452px] xl:max-w-[570px] h-auto rounded-[24px] object-cover"/>
+                <div className='relative'>
+                <button className='size-[50px] absolute top-[45%] left-5 rounded-full bg-white/80 flex justify-center items-center'><MoveLeft className='size-6'/></button>
+                <button className='size-[50px] absolute top-[45%] right-5 rounded-full bg-white/80 flex justify-center items-center'><MoveRight className='size-6'/></button>
+                <img ref={imgRef} src="/assets/fish-man.jpg" alt="Hero"
+                    onMouseEnter={() => setHovered(true)}
+                    onMouseLeave={() => setHovered(false)}
+                    onMouseMove={handleMouseMove}
+                    className="w-full cursor-zoom-in border border-white lg:max-w-[452px] xl:max-w-[570px] h-auto rounded-[24px] object-cover"/>
+                </div>
              <div className='flex gap-5 mt-5'>
                 <div className='size-16 md:size-20 bg-white rounded-lg border border-primary-border'></div>
                 <div className='size-16 md:size-20 bg-white rounded-lg border border-primary-border'></div>
