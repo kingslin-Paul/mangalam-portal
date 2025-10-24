@@ -129,7 +129,7 @@ const logos = [
                 </div>
                 <div id='section-pricing' className='flex flex-col gap-5 mt-5'>
                 <div className='flex flex-col border border-primary-border rounded-[10px] py-4 px-5'>
-                    <span className='#6A7077 font-sans font-medium text-[14px] leading-[20px] tracking-[-0.006em]'>Price Range</span>
+                    <span className='#6A7077 font-sans font-medium text-[14px] leading-[20px] tracking-[-0.006em] bg-white'>Price Range</span>
                     <span className='mt-2 font-sans font-semibold text-[20px] leading-[1.4] tracking-[-0.006em] text-black'>₹4,80,000 - 7,90,000</span>
                     <div className='flex flex-col sm:flex-row sm:flex-wrap gap-2 mt-4'>
                         <span className='bg-[#FEF3C7] rounded-md py-[6px] px-3 text-[#92400E] font-sans font-medium text-[14px] leading-[20px] tracking-[-0.006em]'>Shipping: 6-12 days</span>
@@ -142,7 +142,7 @@ const logos = [
                     <button className="px-6 py-4 bg-primary-blue text-white rounded-lg hover:bg-[#202d7a] transition">
                         Get Custom Quote
                     </button>
-                    <button className="px-6 py-4 border border-primary-blue rounded-lg transition flex gap-2 items-center justify-center">
+                    <button className="px-6 py-4 border bg-white border-primary-blue rounded-lg transition flex gap-2 items-center justify-center">
                         View Technical Specs <ChevronRight className='border-primary-blue'/>
                     </button>
                 </div>
