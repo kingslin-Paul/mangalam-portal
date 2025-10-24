@@ -41,7 +41,7 @@ function Footer() {
                 <p>2126, Road No. 2, GIDC Sachin, Surat - 394 230 Gujarat, India</p>
             </div>
             <div className="flex gap-[6px] items-start font-inter font-normal text-xs leading-[16px] tracking-[-0.006em] text-[#535A61]">
-                <img src="/assets/phone.svg" alt="phone" />
+                <img src="/assets/Phone.svg" alt="phone" />
                 <p>+91-XXX-XXX-XXXX</p>
             </div>
             <div className="flex gap-[6px] items-start font-inter font-normal text-xs leading-[16px] tracking-[-0.006em] text-[#535A61]">
