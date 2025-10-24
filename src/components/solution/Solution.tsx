@@ -4,8 +4,8 @@ function Solution() {
     <div className="border-y-[0.5px] border-[#E1E3E8]">
      <section className='py-12 px-4 md:py-20 md:px-12 lg:py-20 lg:px-[30px] max-w-[1240px] mx-auto'>
         <div className="flex justify-center items-center flex-col">
-        <h2 className='font-urbanist font-bold text-[48px] text-center leading-[1.2] tracking-[0px] mb-5 text-black max-w-[900px]'>Complete Piping Solutions Portfolios</h2>
-        <h3 className='font-inter font-normal text-lg text-center leading-[1.6] tracking-[-0.006em] text-[#6A7077] max-w-[900px]'>From innovative Two-For-One Twisters to specialized heat setting machines, we deliver complete solutions for modern textile manufacturing.</h3>
+        <h2 className='font-urbanist font-bold text-4xl md:text-[48px] text-center leading-[1.2] tracking-[0px] mb-5 text-black max-w-[900px]'>Complete Piping Solutions Portfolios</h2>
+        <h3 className='font-inter font-normal text-base md:text-lg text-center leading-[1.6] tracking-[-0.006em] text-[#6A7077] max-w-[900px]'>From innovative Two-For-One Twisters to specialized heat setting machines, we deliver complete solutions for modern textile manufacturing.</h3>
         </div>
 
         <div className="mt-[56px] flex flex-col gap-6 md:flex-col lg:flex-row">

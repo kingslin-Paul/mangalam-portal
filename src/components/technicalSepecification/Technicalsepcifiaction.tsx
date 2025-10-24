@@ -22,8 +22,8 @@ function Technicalsepcifiaction() {
   return (
    <section className=' bg-secondary-blue'>
     <section className='py-12 px-4 md:py-20 md:px-12 lg:py-20 lg:px-[30px] mx-auto max-w-[1240px]'>
-    <h2 className='font-urbanist font-bold text-[48px] leading-[1.2] tracking-[0px] text-white mb-5'>Technical Specifications at a Glance</h2>
-    <h3 className='font-inter font-normal text-lg leading-[1.6] tracking-[-0.006em] text-white md:max-w-[782px]'>Comprehensive performance data demonstrating our commitment to quality and engineering excellence.</h3>
+    <h2 className='font-urbanist font-bold text-4xl md:text-[48px] leading-[1.2] tracking-[0px] text-white mb-5'>Technical Specifications at a Glance</h2>
+    <h3 className='font-inter font-normal text-base md:text-lg leading-[1.6] tracking-[-0.006em] text-white md:max-w-[782px]'>Comprehensive performance data demonstrating our commitment to quality and engineering excellence.</h3>
 
 <div className="overflow-hidden rounded-[12px] border border-gray-300 my-12 sm:my-14">
      <table className="min-w-full border-collapse">

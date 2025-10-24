@@ -5,8 +5,8 @@ function Resource() {
     <div className="border-y-[0.5px] border-[#E1E3E8]">
      <section className='py-12 px-4 md:py-20 md:px-12 lg:py-20 lg:px-[30px] max-w-[1240px] mx-auto'>
         <div className="flex justify-center items-center flex-col">
-        <h2 className='font-urbanist font-bold text-[48px] text-center leading-[1.2] tracking-[0px] mb-5 text-black max-w-[900px]'>Resources & Downloads</h2>
-        <h3 className='font-inter font-normal text-lg text-center leading-[1.6] tracking-[-0.006em] text-[#6A7077] max-w-[900px]'>Get all the technical documentation and resources you need to make informed decisions about our HDPE piping solutions.</h3>
+        <h2 className='font-urbanist font-bold text-4xl md:text-[48px] text-center leading-[1.2] tracking-[0px] mb-5 text-black max-w-[900px]'>Resources & Downloads</h2>
+        <h3 className='font-inter font-normal text-base md:text-lg text-center leading-[1.6] tracking-[-0.006em] text-[#6A7077] max-w-[900px]'>Get all the technical documentation and resources you need to make informed decisions about our HDPE piping solutions.</h3>
         </div>
         <div className='rounded-[10px] border border-primary-border p-5 mt-14 bg-white'>
             <div className='flex gap-4 flex-col md:flex-row justify-between'>

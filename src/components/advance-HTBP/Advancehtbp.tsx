@@ -33,8 +33,8 @@ function Advancehtbp() {
     <div className="border-y-[0.5px] border-[#E1E3E8]">
          <section className='py-12 px-4 md:py-20 md:px-12 lg:py-20 lg:px-[30px] max-w-[1240px] mx-auto'>
         <div className="flex justify-center items-center flex-col">
-        <h2 className='font-urbanist font-bold text-[48px] text-center leading-[1.2] tracking-[0px] mb-5 text-black max-w-[900px]'>Advanced HDPE Pipe Manufacturing Process</h2>
-        <h3 className='font-inter font-normal text-lg text-center leading-[1.6] tracking-[-0.006em] text-[#6A7077] max-w-[900px]'>Our state-of-the-art extrusion technology ensures consistent quality, optimal material properties, and dimensional accuracy in every pipe we manufacture.</h3>
+        <h2 className='font-urbanist font-bold text-4xl md:text-[48px] text-center leading-[1.2] tracking-[0px] mb-5 text-black max-w-[900px]'>Advanced HDPE Pipe Manufacturing Process</h2>
+        <h3 className='font-inter font-normal text-base md:text-lg text-center leading-[1.6] tracking-[-0.006em] text-[#6A7077] max-w-[900px]'>Our state-of-the-art extrusion technology ensures consistent quality, optimal material properties, and dimensional accuracy in every pipe we manufacture.</h3>
         </div>
 
         <div className='border border-primary-border rounded-[20px] mt-14 bg-white p-8'>

@@ -39,7 +39,7 @@ const accordionData:AccData[] = [
   return (
     <section className='border-y border-[#E1E3E8]'>
     <section className='py-12 px-4 md:py-20 md:px-12 lg:py-20 lg:px-[30px] max-w-[1240px] mx-auto'>
-        <h2 className='font-urbanist font-bold text-[44px] leading-[1.2] tracking-[0px] text-black'><span className='text-primary-blue'>Frequently</span> Asked Questions</h2>
+        <h2 className='font-urbanist font-bold text-4xl md:text-[44px] leading-[1.2] tracking-[0px] text-black'><span className='text-primary-blue'>Frequently</span> Asked Questions</h2>
 
         <div className="flex flex-col gap-4 my-14">
       {accordionData.map((item, index) => {
@@ -70,7 +70,7 @@ const accordionData:AccData[] = [
 
     <div className='border border-primary-border bg-[#F7F8F9] rounded-[10px] p-5 flex flex-col md:flex-row justify-between md:items-center gap-5'>
       <div className='flex flex-col gap-3'>
-        <h3 className='font-inter font-semibold text-xl tracking-0 text-black'>Want us to email the entire catalogue?</h3>
+        <h3 className='font-inter font-semibold text-xl md:text-[26px] tracking-0 text-black'>Want us to email the entire catalogue?</h3>
         <h4 className='font-inter font-regular text-base tracking-[0.6]'>Enter your email and an expert will share the catalogue with you.</h4>
       </div>
       <div className='xl:w-[360px] lg:w-[350px] md:w-[269px] w-full flex flex-col sm:flex-row md:flex-col gap-3'>
